@@ -1,0 +1,56 @@
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one
+
+
+
+
+
+*** when looking at history
+black -didnt change
+red- only in old version
+green- been added to new version 
+
+** commit-checkpoint in Git
+** repository - Git will track every file in my repository every time i commit 
+** git clone - create a clone of repository   (git clone  *url to other repository*)
+
+
+Getting Colored Output
+To get colored diff output, run git config --global color.ui auto
+
+
+**running git log will show a list of the recent commits with information about them, including commit IDs. Running git diff followed by two commit IDs will compare the two versions of the code in those commits.
+
+
+Git Errors and Warnings Solution
+Should not be doing an octopus
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+Panic! (the 'impossible' happened)
+This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a programming language called Haskell. It’s reserved for particularly surprising errors!
+
+Takeaway We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.
+
+
+
+*****Format of git checkout
+The command Caroline types to checkout the "Revert controls" commit is git checkout
+
+
+till now 
+
+************** git log git diff git checkout 
+
+*** subl open sublime
+** notep open notepad++
+
+
+*** ls -a   show all files in repository
+
