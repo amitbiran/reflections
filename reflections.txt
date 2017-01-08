@@ -54,3 +54,13 @@ till now
 
 *** ls -a   show all files in repository
 
+                                                                   ************* from here we will talk about making new repositories so i would say this is stage 2 of the course ********************************
+
+
+
+git init - make a folder repository
+git status  shows what changed since the last commit
+
+git add      - מוסיף קבצים למצב הביניים כלומר הקבצים שאנו מוסיפים הם הקבצים שישמרו כאשר נבצע commit
+git commit - will do a commit
+
