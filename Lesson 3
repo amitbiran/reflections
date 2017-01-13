@@ -1,0 +1,4 @@
+git remote show all remotes
+git remote add name address
+git remote -v show more details
+git push "name of repository on git hub" "name of my branch"
