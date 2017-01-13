@@ -1,1 +1,21 @@
 my current commit is called master
+
+
+Branch-a version of my app that is a part of the same commit 
+
+git branch name will create a branch called name
+git branch - show me branches
+* remember to save and checkout to the master after finish using the branch 
+shorcut" git checkout -b new_branch_name" will creat and imidiatly checkout to that branch
+
+git merge name1 name2 - will merge two branches it will also do a commit for the merge 
+
+git show- will show changes made against parent 
+
+git branch -d name    will delete the branch (its lable)
+
+git merge --abort
+
+
+when merge conflict occurd i should enter the code and find rows with >>>>>>>>>>>>>>> 
+head is my code 
